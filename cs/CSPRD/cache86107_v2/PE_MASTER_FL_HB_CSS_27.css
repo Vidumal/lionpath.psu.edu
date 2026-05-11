@@ -1,0 +1,840 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#PE_UI018_HB_STDNT .pe-card__title-bar .pe-card-title {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h1{
+   font-size: 16pt;
+   font-weight: 700;
+}
+
+h2 {
+   font-size: 16px;
+   font-weight: 700;
+   padding: 0;
+}
+
+h3{
+   font-size: 14px;
+   font-weight: 700;
+   padding: .3rem;
+}
+
+h4{
+   font-size: 12px;
+   color: #4A4A4A;
+}
+
+.pe-external-link {
+    font-size: 14px;
+    }
+
+table, th {
+    font-size: 14px;
+    color: #4A4A4A;
+     }
+     
+td {
+    font-size: 14px;
+    color: #333;
+    vertical-align: text-top;
+    line-height: 1.1rem;
+     }
+ 
+
+
+
+.ps_main {
+    background-color: #F6FBFF;
+    }
+
+.pe-card {
+    background-color: #FFF;
+    box-shadow: 0px, 9px, 16px, rgba(0,0,0,0.11);
+    margin: 10px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #314D64;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    }
+
+.pe-card--rounded {
+    background-color: #F4F4F4;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    box-shadow: none;
+    margin: 10px;
+    }
+
+.pe-card.pe-card--rounded {
+    background-color: #F4F4F4;
+    margin: 10px;
+    border: none;
+    }
+.pe-card--rounded.pe-card--quick-links {
+    border: none;
+    }
+
+.pe-card--no-visible-formatting {
+    display: flex;
+    justify-content: space-evenly;
+   -webkit-box-pack: justify;
+   -webkit-justify-content: space-between;
+   -ms-flex-pack: justify;
+   min-width: 270px;
+   }
+
+.pe-card.pe-card--no-visible-formatting {
+    background-color: transparent;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    }
+
+.pe-flex-container--space-between,
+.pe-flex-container__space-between {
+    justify-content: space-between;
+    }
+
+.pe-flex-container--space-around {
+    justify-content: space-around;
+    }
+
+.pe-container {
+    padding: 0px;
+    border: 0px;
+    margin: 10px;
+    min-width: 270px;
+    }
+
+
+
+.pe-flex-container>div[id$="PE_HOLDS_TODO_ID"] {
+    flex: 3 1 auto;
+    padding: 0px 10px;
+    }
+
+.pe-flex-container>div[id$="PE_TOP_RIGHT_BUTTO"] {
+    flex: 1 1 auto;
+    padding: 0px 10px;
+}
+
+
+@media only screen and (min-width: 1183px) {
+    .pe-flex-container > div[id$="PE_HOLDS_TODO_ID"] {
+        margin: 0px 20px;  
+    }
+    div[id$="PE_SB_HB_NAME"] {
+        margin-left: -20px;
+    }
+}
+
+div[id$="divPE_TOP_RIGHT_BUTTO"] {
+    margin: 0px;
+}
+
+div[id$="divPE_TOP_RIGHT_BUTTO"] a>span {
+    width: 6em;
+    white-space: normal;
+}
+
+.pe-flex-container>div[id$="PE_CLASS_SCHED_HB"] {
+    flex: 2;
+    min-width: 650px;
+}
+
+.pe-flex-item__class-schedule--2 {
+    flex: 2;
+    min-width: 650px;
+}
+
+#PE_HOLDS_TODOS_CONTAINER {
+    min-width: 270px;
+}
+
+#PE_HOLDS_TODOS_CONTAINER>div {
+    width: 33.3%;
+    text-align: center;
+}
+
+.pe-container--button-list ul li,
+.pe-card--quick-links ul li {
+    list-style-type: none;
+}
+
+
+
+
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container span.ps-link-wrapper a {
+    color: #ffffff;
+}
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container .active span.ps-link-wrapper {
+    background: #FFFFFF;
+    border: 1px solid #3EA39E;
+}
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container .active span.ps-link-wrapper a {
+    color: #3EA39E;
+}
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-content {
+    min-height: 300px;
+}
+
+
+
+
+
+.pe-dummy-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 20px;
+}
+
+.pe-dummy-scroll__spacer {
+    height: 20px;
+    width: 920px;
+}
+
+.pe-dummy-scroll__spacer.peFiveDay {
+    height: 20px;
+    width: 670px;
+}
+
+
+
+div.pe-flex-container div.ps_box-link.pe-item__last,
+div.pe-flex-container div.ps_box-htmlarea.pe-item__last {
+    margin-left: auto;
+}
+
+div[id$="PE_HB_COMM"] {
+    border: 0px;
+    background-color: #ffffff;
+}
+
+div[id$="PE_HB_COMM"] .pe-flex-container__item--right a:link,
+div[id$="PE_HB_COMM"] .pe-flex-container__item--right .ps-link:link {
+    color: #314D64;
+}
+
+div[id$="PE_WEEKLY_TOGGLE"] {
+    width: 260px;
+}
+
+
+@media print{
+    #PT_WORK_PT_BUTTON_BACK,
+    div[id$='PT_ACTION_CONT'],
+    div[id$='PE_UI018_ST_HB_PE_UI018_HLD_TODO'],
+    div[id$='PE_TOP_RIGHT_BUTTO'],
+    div[id$='PE_ENRL_EXAM_GRAD'],
+    div[id$='PE_BTNS_QL_COMM'],
+    #peWeeklyCalSmallScreen {
+        display: none;
+    }
+    li.single-event{
+        width:100% !important;
+        left: unset;
+    }
+}
+
+
+
+.pe-card__title-bar .pe-flex-container__item--right a:link, 
+.pe-card__title-bar .pe-flex-container__item--right a:hover,
+.pe-card__title-bar .pe-flex-container__item--right .ps-link:link {
+     color: #009CDE;
+     font-size: 16px;
+     font-weight: 700;
+}
+
+#PE_TOP_RIGHT_BUTTO {
+   min-width: 270px;
+} 
+
+#PE_TOP_RIGHT_BUTTO>div {
+   justify-content: space-around;
+   flex-wrap: nowrap;
+} 
+
+.pe-container--button-list ul {
+   padding-left: 0;
+}
+
+.pe-card--quick-links ul {
+    padding-left: 0;
+    padding-top: 10px;
+}
+
+.pe-container--button-list ul li:first-of-type {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.pe-container--button-list ul li:last-of-type {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+   
+.pe-container--button-list ul li  {
+    background-color: #314D64;
+    margin: 1px;
+    border-bottom: 1px solid #F6FBFF;
+    text-align: center;
+}
+
+.pe-container--button-list ul li .ps_box-link {
+      width: 100%;
+      height: 100%;
+}
+.pe-container--button-list ul li .ps_box-link .ps-link-wrapper {
+      width: 100%;
+      height: 100%;
+      display: block;
+}
+
+.pe-container--button-list ul li a:link, 
+.pe-container--button-list ul li a:visited {
+      text-decoration: none;
+      display: block;
+      line-height: 2.2rem;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      color: #F6FBFF;
+      font-size: 16px;
+      font-weight: 700;
+  }
+
+.pe-container--button-list ul li a:hover {
+      text-decoration: none;
+      display: block;
+      line-height: 2.2rem;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      font-size: 1rem;
+      font-weight: 700;
+      background-color: #E8EEF4;
+      text-decoration: none;
+      color: #314D64;
+}
+
+.pe-card--quick-links ul li a:link,
+.pe-card--quick-links ul li a:visited {
+    color: #333333;
+    display: block;
+    width: 100%;
+    line-height: 1.2rem;
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    #PE_HOLDS_TODOS_CONTAINER {
+       background-color: none;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+       font-size: 12px;
+       min-width: 270px;
+}
+}
+
+@media only screen and (min-width: 769px) {
+    #PE_HOLDS_TODOS_CONTAINER {
+       background-color: none;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+       font-size: 16px;
+       min-width: 768px;
+   }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 768px) {
+    #PE_HOLDS_TODOS_CONTAINER {
+        min-width: 570px;
+    }
+}
+
+#PE_HOLDS_TODOS_CONTAINER {
+    background-color: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+ #PE_HOLDS_TODOS_CONTAINER .peHoldsTodoBadge a:link,
+ #PE_HOLDS_TODOS_CONTAINER .peHoldsTodoBadge a:visited {
+    padding: .3rem .7rem;
+    background: #009CDE;
+    box-shadow: 1px 2px 2px 0 rgba(93,175,237,0.50);
+    color: #FFF;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+ #PE_HOLDS_TODOS_CONTAINER .peHoldsTodoBadge a:hover {
+    padding: .3rem .7rem;
+    background: #FFF;
+    box-shadow: 0 9px 16px 0 rgba(0,0,0,0.11);
+    color: #009CDE;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #009CDE;
+    text-decoration: none;
+}
+
+ #PE_HOLDS_TODOS_CONTAINER a:link,
+ #PE_HOLDS_TODOS_CONTAINER a:visited {
+    padding: .3rem .6rem;
+    background: none;
+    color: #9B9B9B;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+ #PE_HOLDS_TODOS_CONTAINER .span {
+    color: #333;
+}
+
+.pe-right-border {
+    border-style: solid;
+    border-width: 0 2px 0 0;
+    border-color: #A6CCF1;
+}
+
+
+
+.enroll-heading {
+   background: #F4F4F4;
+}
+.enroll-heading ~ div {
+    padding: 1rem 0;
+}
+
+.enroll-heading ~ table td {
+   width: 30%;
+   }
+
+
+
+.pe-final-exam {
+     padding: .5em;
+     font-size: 12px;
+}
+
+.pe-final-exam--title {
+     background: #F4F4F4;
+     font-weight: 600;
+     font-size: 14px;
+     padding: 2px 0px;
+}
+
+.pe-dark-blue,
+.pe-dark-blue a,
+.pe-dark-blue a:link,
+.pe-dark-blue a:hover {
+   color: #314D64;
+   text-decoration: underline;
+   }
+
+.pe-card__card-action .pe-flex-container {
+   color: #314D64;
+   font-weight: 700;
+}
+
+#peScheduleListView strong {
+   font-weight: 700;
+}
+
+#peScheduleListView table{
+   font-size: 14px;
+}
+
+#peScheduleListView th {
+   font-size: 14px;
+   font-weight: 700;
+   color: #4A4A4A;
+   line-height: 2rem;
+}
+
+#peScheduleListView td {
+   font-size: 14px;
+   color: #333;
+   padding: .5rem 0;
+}
+
+#peScheduleListView .three-col td:nth-of-type(1) p,
+#peScheduleListView .three-col td:nth-of-type(2) p  {
+   display: inline;
+}
+
+#peScheduleListView .three-col td:nth-of-type(2) span {
+   display: block;
+   font-size: 14px;
+}
+
+#peScheduleListView .three-col td:nth-of-type(3) p {
+   display: block;
+}
+
+.pe-card--no-visible-formatting .ps-link > .ps-img + .ps-text {
+    margin-left: 0;
+}
+
+.pe-card--no-visible-formatting .ps_box-link {
+    text-align: center;
+    background: #FFF;
+    box-shadow: 0 9px 16px 0 rgba(0,0,0,0.11);
+    border-radius: 4px;
+}
+
+.pe-card--no-visible-formatting  a:hover {
+   text-decoration: none;
+}
+
+.pe-card--no-visible-formatting .ps-text {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    color: #4A4A4A;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+}
+
+.pe-card--no-visible-formatting a[id="PE_UI018_ST_HB_PE_UI018_PB_2"] .ps-text,
+.pe-card--no-visible-formatting a[id="PE_UI018_ST_HB_PE_UI018_PB_3"] .ps-text  {
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    color: #4A4A4A;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+}
+
+.pe-card--no-visible-formatting .ps-link-wrapper {
+    padding: 2px 4px;
+}
+
+
+
+div[id$="PE_UI018_ST_HB_PE_UI020_15_ACADST"] {
+   margin-top: 1rem;
+   }
+
+
+
+
+
+div[id$="PE_SR130_ALT_GD_PE_SR130_LINK"] {
+   margin-bottom: 1rem;
+   }
+
+
+
+
+
+
+.psc_form-small  .smallColl > .pe-flex-container__item--right:before {
+    content: url(/cs/CSPRD/cache86107_v2/PE_UI018_CARET_DOWN_1.SVG);
+    padding-right: 12px;
+}
+.psc_form-small  .smallColl.active > .pe-flex-container__item--right:before {
+    content: url(/cs/CSPRD/cache86107_v2/PE_UI020_CARET_UP_BL_1.SVG);
+    padding-right: 12px;
+}
+
+.psc_form-small  .smallColl{
+  cursor: pointer;
+}
+
+.psc_form-small  .smallCon{
+  display: none;
+}
+
+
+.psc_form-small  div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action {
+    padding: 0 .4rem !important;
+}
+
+
+
+
+.peMinibarIcon{
+    width: 3em;
+    margin-right: .5em;
+}
+
+a:hover > .peMinibarIcon{
+   content: url(/cs/CSPRD/cache86107_v2/PE_NEW_DEFAULT_1.SVG);
+}
+
+
+
+.pe-container--button-list .ps_box-grid{
+	min-height: 152px;
+}
+
+
+
+
+
+@media only screen and (max-width: 486px) {
+    #peIcsDownloadForm {
+      font-size: 12px
+   }  
+   div[id$="divPE_WEEKLY_TOGGLE"] {
+      width: 180px;
+	}
+    }
+
+.can-toggle input[type="checkbox"]:checked~label .can-toggle__switch:after {
+    -webkit-transform: translate3d(86px, 0, 0);
+    transform: translate3d(86px, 0, 0);
+   }
+   
+.can-toggle label {
+	font-size: 12px;
+   }
+   
+.can-toggle label .can-toggle__switch {
+	height: 30px;
+    flex: 0 0 180px;
+    border-radius: 4px;
+   }
+   
+.can-toggle label .can-toggle__switch:before {
+    left: 90px;
+    font-size: 12px;
+    line-height: 30px;
+    width: 90px;
+    padding: 0 12px;
+   }
+   
+.can-toggle label .can-toggle__switch:after {
+    top: 2px;
+    left: 2px;
+    border-radius: 2px;
+    width: 90px;
+    line-height: 26px;
+    font-size: 12px;
+   }
+
+@media only screen and (min-width: 487px) {    
+   .can-toggle input[type="checkbox"]:checked~label .can-toggle__switch:after {
+    -webkit-transform: translate3d(115px, 0, 0);
+    transform: translate3d(115px, 0, 0);
+   }
+   .can-toggle label {
+    font-size: 14px;
+   }
+   .can-toggle label .can-toggle__switch {
+    height: 36px;
+    flex: 0 0 234px;
+    border-radius: 4px;
+   }
+   .can-toggle label .can-toggle__switch:before {
+    left: 117px;
+    font-size: 12px;
+    line-height: 36px;
+    width: 117px;
+    padding: 0 12px;
+   }
+   .can-toggle label .can-toggle__switch:after {
+    top: 2px;
+    left: 2px;
+    border-radius: 2px;
+    width: 115px;
+    line-height: 32px;
+    font-size: 12px;
+   }
+}
+
+
+
+.can-toggle {
+    position: relative;
+}
+
+.can-toggle *,
+.can-toggle *:before,
+.can-toggle *:after {
+    box-sizing: border-box;
+}
+
+.can-toggle input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.can-toggle input[type="checkbox"][disabled]~label {
+    pointer-events: none;
+}
+
+.can-toggle input[type="checkbox"][disabled]~label .can-toggle__switch {
+    opacity: 0.4;
+}
+
+.can-toggle input[type="checkbox"]:checked~label .can-toggle__switch:before {
+    content: attr(data-unchecked);
+    left: 0;
+}
+
+.can-toggle input[type="checkbox"]:checked~label .can-toggle__switch:after {
+    content: attr(data-checked);
+}
+
+.can-toggle label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.can-toggle label .can-toggle__switch {
+    position: relative;
+}
+
+.can-toggle label .can-toggle__switch:before {
+    content: attr(data-checked);
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.can-toggle label .can-toggle__switch:after {
+    content: attr(data-unchecked);
+    position: absolute;
+    z-index: 5;
+    text-transform: uppercase;
+    text-align: center;
+    background: white;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.can-toggle input[type="checkbox"][disabled]~label {
+    color: rgba(119, 119, 119, 0.5);
+}
+
+
+
+.can-toggle input[type="checkbox"]:focus~label .can-toggle__switch,
+.can-toggle input[type="checkbox"]:hover~label .can-toggle__switch {
+    background-color: rgba(49, 77, 100, 0.845);
+}
+
+
+
+.can-toggle input[type="checkbox"]:focus~label .can-toggle__switch:after,
+.can-toggle input[type="checkbox"]:hover~label .can-toggle__switch:after {
+    color: #314D64;
+}
+
+.can-toggle input[type="checkbox"]:hover~label {
+    color: 314D64;
+}
+
+.can-toggle input[type="checkbox"]:checked~label:hover {
+    color: rgba(49, 77, 100, 0.845);
+}
+
+
+
+.can-toggle input[type="checkbox"]:checked~label .can-toggle__switch {
+    background-color: #314D64;
+}
+
+
+
+.can-toggle input[type="checkbox"]:checked~label .can-toggle__switch:after {
+    color: #314D64;
+}
+
+
+
+.can-toggle input[type="checkbox"]:checked:focus~label .can-toggle__switch,
+.can-toggle input[type="checkbox"]:checked:hover~label .can-toggle__switch {
+    background-color: rgba(49, 77, 100, 0.845);
+}
+
+
+
+.can-toggle input[type="checkbox"]:checked:focus~label .can-toggle__switch:after,
+.can-toggle input[type="checkbox"]:checked:hover~label .can-toggle__switch:after {
+    color: #314D64;
+}
+
+.can-toggle label .can-toggle__label-text {
+    flex: 1;
+}
+
+
+
+.can-toggle label .can-toggle__switch {
+    transition: background-color 0.3s cubic-bezier(0, 1, 0.5, 1);
+    background: #314D64;
+}
+
+
+
+.can-toggle label .can-toggle__switch:before {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.can-toggle label .can-toggle__switch:after {
+    transition: -webkit-transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+    transition: transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+    transition: transform 0.3s cubic-bezier(0, 1, 0.5, 1), -webkit-transform 0.3s cubic-bezier(0, 1, 0.5, 1);
+    color: #314D64;
+}
+
+.can-toggle input[type="checkbox"]:focus~label .can-toggle__switch:after,
+.can-toggle input[type="checkbox"]:hover~label .can-toggle__switch:after {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.can-toggle input[type="checkbox"]:checked:focus~label .can-toggle__switch:after,
+.can-toggle input[type="checkbox"]:checked:hover~label .can-toggle__switch:after {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.can-toggle label .can-toggle__switch:hover:after {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,45 @@
+
+
+.pe-reset-css html, .pe-reset-css  body, .pe-reset-css  div, .pe-reset-css  span, .pe-reset-css  applet, .pe-reset-css  object, .pe-reset-css  iframe, .pe-reset-css 
+h1, .pe-reset-css  h2, .pe-reset-css  h3, .pe-reset-css  h4, .pe-reset-css  h5, .pe-reset-css  h6, .pe-reset-css  p, .pe-reset-css  blockquote, .pe-reset-css  pre, .pe-reset-css 
+a, .pe-reset-css  abbr, .pe-reset-css  acronym, .pe-reset-css  address, .pe-reset-css  big, .pe-reset-css  cite, .pe-reset-css  code, .pe-reset-css 
+del, .pe-reset-css  dfn, .pe-reset-css  em, .pe-reset-css  img, .pe-reset-css  ins, .pe-reset-css  kbd, .pe-reset-css  q, .pe-reset-css  s, .pe-reset-css  samp, .pe-reset-css 
+small, .pe-reset-css  strike, .pe-reset-css  strong, .pe-reset-css  sub, .pe-reset-css  sup, .pe-reset-css  tt, .pe-reset-css  var, .pe-reset-css 
+b, .pe-reset-css  u, .pe-reset-css  i, .pe-reset-css  center, .pe-reset-css 
+dl, .pe-reset-css  dt, .pe-reset-css  dd, .pe-reset-css  ol, .pe-reset-css  ul, .pe-reset-css  li, .pe-reset-css 
+fieldset, .pe-reset-css  form, .pe-reset-css  label, .pe-reset-css  legend, .pe-reset-css 
+table, .pe-reset-css  caption, .pe-reset-css  tbody, .pe-reset-css  tfoot, .pe-reset-css  thead, .pe-reset-css  tr, .pe-reset-css  th, .pe-reset-css  td, .pe-reset-css 
+article, .pe-reset-css  aside, .pe-reset-css  canvas, .pe-reset-css  details, .pe-reset-css  embed, .pe-reset-css  
+figure, .pe-reset-css  figcaption, .pe-reset-css  footer, .pe-reset-css  header, .pe-reset-css  hgroup, .pe-reset-css  
+menu, .pe-reset-css  nav, .pe-reset-css  output, .pe-reset-css  ruby, .pe-reset-css  section, .pe-reset-css  summary, .pe-reset-css 
+time, .pe-reset-css  mark, .pe-reset-css  audio, .pe-reset-css  video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.pe-reset-css article, .pe-reset-css  aside, .pe-reset-css  details, .pe-reset-css  figcaption, .pe-reset-css  figure, .pe-reset-css  
+footer, .pe-reset-css  header, .pe-reset-css  hgroup, .pe-reset-css  menu, .pe-reset-css  nav, .pe-reset-css  section, .pe-reset-css  main {
+	display: block;
+}
+.pe-reset-css body {
+	line-height: 1;
+}
+.pe-reset-css ol, .pe-reset-css  ul {
+	list-style: none;
+}
+.pe-reset-css blockquote, .pe-reset-css  q {
+	quotes: none;
+}
+.pe-reset-css blockquote:before, .pe-reset-css  blockquote:after, .pe-reset-css 
+q:before, .pe-reset-css  q:after {
+	content: '';
+	content: none;
+}
+.pe-reset-css table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

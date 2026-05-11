@@ -1,0 +1,827 @@
+
+
+
+
+
+
+ #peListViewTerm  {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4A4A4A;
+    line-height: 2rem;
+    text-align: center;
+    margin: .4rem;
+}
+
+   
+#peWeeklyCalSmallScreen {
+    display: none;
+  }
+
+.pe-modo_hidden {
+    font-size: 11px !important;
+    font-weight: 400 !important;
+   }
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action {
+    padding: 0px;
+}
+
+@media only screen and (max-width: 799px) {
+   .pe-modo_hidden {
+       display: none;
+      }
+   .cd-schedule .timeline span {
+      font-size: 10px;
+    }
+   .ps_apps_content {
+      padding: .5rem !important;
+      }    
+}
+
+@media only screen and (min-width: 800px) {
+   .cd-schedule .timeline span {
+      font-size: 11px;
+    }
+}
+
+.cd-schedule .events {
+      width: calc(100% - 42px);
+      margin-left: 42px;
+      }
+
+.pe-flex-item__class-schedule--2 {
+  flex: 2;
+  min-width: 270px;
+}
+
+div[id$="divPE_WEEKLY_SCHED"] *,div[id$="divPE_WEEKLY_SCHED"] *::after,div[id$="divPE_WEEKLY_SCHED"] *::before {
+  box-sizing: border-box;
+}
+
+body div[id$="divPE_WEEKLY_SCHED"]{
+  font-family: "Open Sans", sans-serif;
+  color: #222222;
+  background-color: white;
+}
+
+div[id$="divPE_WEEKLY_SCHED"] a,
+div[id$="divPE_WEEKLY_SCHED"] a:hover,
+div[id$="divPE_WEEKLY_SCHED"] a:visited {
+  color: #333;
+  text-decoration: underline;
+}
+
+
+
+.cd-schedule {
+  max-width: 1400px;
+  position: relative;
+  margin: 2em auto;
+  
+  overflow-x: scroll;
+}
+
+.cd-schedule::before {
+  
+  content: 'mobile';
+  display: none;
+}
+
+.cd-schedule::before {
+    content: 'desktop';
+  }
+
+.cd-schedule::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+
+.cd-schedule .timeline span {
+   font-size: 10px;
+   }
+
+.cd-schedule .timeline {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+
+.cd-schedule .timeline li {
+    position: relative;
+    height: 50px;
+  }
+
+.cd-schedule .timeline li::after {
+    
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;  
+    background: #FFF;
+  }
+
+.cd-schedule .timeline li:last-of-type::after {
+    display: none;
+  }
+
+.cd-schedule .timeline li span {
+    display: none;
+  }
+
+.cd-schedule .timeline li::after { 
+    width: calc(100% - 42px);
+    left: 42px;
+  }
+
+#peWeeklyScheduleMsg {
+     margin: 10px 0 0 0;
+    }
+
+.cd-schedule .timeline li span {
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+.cd-schedule .timeline li:nth-of-type(2n) span {
+    display: none;
+  }
+
+.cd-schedule .events {
+  
+  z-index: 1;
+}
+
+.cd-schedule .events .events-group {
+  margin-bottom: 30px;
+  padding: 0 8px 0 0;
+  width: 100%;
+}
+
+
+
+div[id$="divPE_WEEKLY_SCHED"] span {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.top-info .peWeeklyCalToday {
+ color: #F5A623;
+}
+
+.top-info .peWeeklyCalToday > span {
+  background: #F5A623;
+  color: #FFF;
+  border-radius: 16px;
+  padding: 2px 4px;
+}
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-content {
+  min-height: 100px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cd-schedule .events .events-group > ul {
+  position: relative;
+  padding: 0 5%;
+  
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+.cd-schedule .events .events-group > ul::after {
+  
+  display: inline-block;
+  content: '-';
+  width: 1px;
+  height: 100%;
+  opacity: 0;
+  color: transparent;
+}
+
+.cd-schedule .events .single-event {
+  
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  float: left;
+  height: 150px;
+  width: 70%;
+  max-width: 300px;
+  box-shadow: 0 5px 15px 0 #E9E7F1;
+  margin-right: 20px;
+  -webkit-transition: opacity .2s, background .2s;
+  transition: opacity .2s, background .2s;
+}
+
+.cd-schedule .events .single-event:last-of-type {
+  margin-right: 5%;
+}
+
+.cd-schedule .events .single-event a {
+  display: block;
+  height: 100%;
+  background: #FFF;
+}
+
+.cd-schedule .events .single-event {
+    width: 40%;
+  }
+
+.cd-schedule .events {
+    float: left;
+  }
+
+.cd-schedule .events .events-group {
+    width: 14.28%;
+    min-width: 72px;
+    margin-bottom: 0; 
+  }
+
+.cd-schedule .events.peFiveDay .events-group {
+    width: 20%;
+  }
+
+.cd-schedule .events .events-group:not(:first-of-type) {
+    border-left-width: 0;
+  }
+
+
+
+.cd-schedule .events-group .top-info {
+   width: 100%;
+   text-align: center;
+   position: sticky;
+   top: 0;
+   z-index: 4;
+   background: #F4F4F4;
+    display: block;
+    height: 50px;
+    padding: 0;
+}
+
+.cd-schedule .events .top-info > span , 
+.cd-schedule .events-group .top-info > div {
+    
+    display: block;
+    vertical-align: middle;
+    padding: 0 .5em;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+.cd-schedule .events .top-info > span {
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.cd-schedule .events .events-group > top-info + .peWeeklyCalToday {
+    display: table;
+    justify-content: left;
+  }
+
+
+
+.cd-schedule {
+    height: 600px;
+  }
+
+.cd-schedule .events .events-group > ul {
+    height: 1600px;
+    
+    display: block;
+    overflow: visible;
+    padding: 0;
+    background: #F4F4F4;
+  }
+
+.cd-schedule .events .events-group > ul::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+.cd-schedule .events .events-group > ul::after {
+    
+    display: none;
+  }
+
+.cd-schedule .events .single-event {
+    position: absolute;
+    z-index: 3;
+    
+    width: calc(100% + 2px);
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    height: auto;
+    max-width: none;
+    margin-right: 0;
+    background-color: #FFF;
+  }
+
+.cd-schedule .events .single-event:last-of-type {
+    
+    margin-right: 0;
+  }
+
+.cd-schedule .events .single-event.selected-event {
+    
+    visibility: hidden;
+  }
+
+.cd-schedule.loading .events .single-event {
+  
+  opacity: 0;
+}
+
+
+.cd-schedule .event-name,
+.cd-schedule .event-date {
+      display: block;
+      vertical-align: middle;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      } 
+
+
+.event-name > div {
+   font-size: 11px; 
+   font-weight: 400;
+   color: #333;
+   word-break: break-word;
+   text-align: left;
+   margin-left: 2px;
+}
+
+.cd-schedule .event-date {
+  
+  font-size: .9rem;
+  opacity: .7;
+  line-height: 1.2;
+  margin-bottom: .2em;
+}
+
+.cd-schedule .single-event[data-event="event-9"],
+.cd-schedule [data-event="event-9"] .header-bg,
+.cd-schedule .single-event[data-event="event-1"],
+.cd-schedule [data-event="event-1"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #F5A623;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-9"]:hover,
+.cd-schedule .single-event[data-event="event-1"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #F5A623;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-10"],
+.cd-schedule [data-event="event-10"] .header-bg, 
+.cd-schedule .single-event[data-event="event-2"],
+.cd-schedule [data-event="event-2"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #DC5365;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-10"]:hover,
+.cd-schedule .single-event[data-event="event-2"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #DC5365;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-11"],
+.cd-schedule [data-event="event-11"] .header-bg ,
+.cd-schedule .single-event[data-event="event-3"],
+.cd-schedule [data-event="event-3"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #9013FE;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-11"]:hover ,
+.cd-schedule .single-event[data-event="event-3"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #9013FE;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.cd-schedule .single-event[data-event="event-12"],
+.cd-schedule [data-event="event-12"] .header-bg,
+.cd-schedule .single-event[data-event="event-4"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #F8E71C;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.cd-schedule .single-event[data-event="event-12"]:hover ,
+.cd-schedule .single-event[data-event="event-4"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #F8E71C;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-5"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #8B572A;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-5"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #8B572A;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-6"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #7ED321;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-6"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #7ED321;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-7"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #F5A623;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-7"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #F5A623; 
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-8"],
+.cd-schedule [data-event="event-4"] .header-bg {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #DC5365;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.cd-schedule .single-event[data-event="event-8"]:hover {
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  border-color: #DC5365;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.cd-schedule .event-modal {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+  
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transform: translateX(100%);
+      -ms-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: visibility .4s, -webkit-transform .4s;
+  transition: visibility .4s, -webkit-transform .4s;
+  transition: transform .4s, visibility .4s;
+  transition: transform .4s, visibility .4s, -webkit-transform .4s;
+  -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+          transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.cd-schedule .event-modal .header {
+  position: relative;
+  height: 70px;
+  
+  display: table;
+  width: 100%;
+}
+
+.cd-schedule .event-modal .header .content {
+  position: relative;
+  z-index: 3;
+  
+  display: table-cell;
+  vertical-align: middle;
+  padding: .6em 5%;
+}
+
+.cd-schedule .event-modal .body {
+  position: relative;
+  width: 100%;
+  
+  height: calc(100% - 70px);
+}
+
+.cd-schedule .event-modal .event-info {
+  position: relative;
+  z-index: 2;
+  line-height: 1.4;
+  height: 100%;
+  overflow: hidden;
+}
+
+.cd-schedule .event-modal .event-info > div {
+  overflow: auto;
+  height: 100%;
+  padding: 1.4em 5%;
+}
+
+.cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.cd-schedule .event-modal .body-bg {
+  z-index: 1;
+  background: white;
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.cd-schedule .event-modal .header-bg {
+  z-index: 2;
+  -webkit-transform-origin: top center;
+      -ms-transform-origin: top center;
+          transform-origin: top center;
+}
+
+.cd-schedule .event-modal .close {
+  
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.1);
+  
+  color: transparent;
+  white-space: nowrap;
+  text-indent: 100%;
+  height: 70px;
+  width: 70px;
+}
+
+.cd-schedule .event-modal .close::before, .cd-schedule .event-modal .close::after {
+  
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2px;
+  height: 22px;
+  background: white;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cd-schedule .event-modal .close::before {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+      -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.cd-schedule .event-modal .close::after {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+      -ms-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+.cd-schedule .event-modal .event-date {
+  display: none;
+}
+
+.cd-schedule .event-modal.no-transition {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.cd-schedule .event-modal.no-transition .header-bg, .cd-schedule .event-modal.no-transition .body-bg {
+  -webkit-transition: none;
+  transition: none;
+}
+
+.cd-schedule .event-modal {
+    
+    right: auto;
+    width: auto;
+    height: auto;
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+    will-change: transform, width, height;
+    -webkit-transition: height .4s, width .4s, visibility .4s, -webkit-transform .4s;
+    transition: height .4s, width .4s, visibility .4s, -webkit-transform .4s;
+    transition: height .4s, width .4s, transform .4s, visibility .4s;
+    transition: height .4s, width .4s, transform .4s, visibility .4s, -webkit-transform .4s;
+    -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+            transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  }
+.cd-schedule .event-modal .header {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+.cd-schedule .event-modal .header .content {
+    
+    display: block;
+    padding: .8em;
+  }
+.cd-schedule .event-modal .event-info > div {
+    padding: 2em 3em 2em 2em;
+  }
+.cd-schedule .event-modal .body {
+    height: 100%;
+    width: auto;
+  }
+.cd-schedule .event-modal .header-bg, .cd-schedule .event-modal .body-bg {
+    
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+.cd-schedule .event-modal .header-bg {
+    -webkit-transition: -webkit-transform .4s;
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s;
+    -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+            transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  }
+.cd-schedule .event-modal .body-bg {
+    opacity: 0;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+.cd-schedule .event-modal .event-date {
+    display: block;
+  }
+.cd-schedule .event-modal .close, .cd-schedule .event-modal .event-info {
+    opacity: 0;
+  }
+.cd-schedule .event-modal .close {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+  }
+.cd-schedule .event-modal .close::after, .cd-schedule .event-modal .close::before {
+    background: #222222;
+    height: 16px;
+  }
+
+.cd-schedule .event-modal .header .content {
+    padding: 1.2em;
+  }
+
+.cd-schedule.modal-is-open .event-modal {
+  
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+  visibility: visible;
+}
+
+.cd-schedule.modal-is-open .event-modal .event-info > div {
+  
+  -webkit-overflow-scrolling: touch;
+}
+
+.cd-schedule.animation-completed .event-modal .close,
+.cd-schedule.content-loaded.animation-completed .event-modal .event-info {
+    
+    opacity: 1;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+  }
+  .cd-schedule.modal-is-open .body-bg {
+    opacity: 1;
+    -webkit-transition: -webkit-transform .4s;
+    transition: -webkit-transform .4s;
+    transition: transform .4s;
+    transition: transform .4s, -webkit-transform .4s;
+    -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+            transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  }
+
+.cd-schedule .cover-layer {
+  
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity .4s, visibility .4s;
+  transition: opacity .4s, visibility .4s;
+}
+
+.cd-schedule.modal-is-open .cover-layer {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.cd-schedule .timeline li span.pe-schedule-time{
+  display: none;
+}
+div.events > ul {
+  display: flex;
+}
+
+@media only screen and (max-width: 419px) {
+   div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container a[id^="PE_UI018_ST_HB_PE_UI021_PB_LEFT"] img,
+   div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container a[id^="PE_UI018_ST_HB_PE_UI021_PB_RIGHT"] img {
+       height: 24px;
+       width: 24px;
+       }
+   .pe-card__card-content {
+       padding: 10px;
+       }
+}
+
+@media only screen and (min-width: 420px) {
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container a[id^="PE_UI018_ST_HB_PE_UI021_PB_LEFT"] img,
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container a[id^="PE_UI018_ST_HB_PE_UI021_PB_RIGHT"] img {
+    height: 30px;
+    width: 30px;
+}
+}
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container .ps-button {
+    border: none !important;
+}
+
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container .ps-button > img:only-child, 
+div[id$="divPE_CLASS_SCHED_HB"] .pe-card__card-action.pe-flex-container .ps-button > img {
+    max-height: none !important;
+}
+
+div[id$="PE_UI018_ST_HB_PE_UI018_EMAIL_SCD"] {
+   margin-left: auto;
+   padding-right: 1rem;
+   }
+
+strong.pe_NotAbove {
+   font-weight: 700;
+}
+
+table.pe-indent{
+  margin: .4rem;
+}
